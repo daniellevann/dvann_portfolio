@@ -1,0 +1,173 @@
+body{
+  background-color: #001524;
+ color: lightgray;
+  font-size: 20px;
+}
+
+
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav{
+  background-color: #001524;
+  height:40px;
+  font-size:30px;
+  width: 100%;
+  margin-bottom: 0;
+}
+nav a{
+  padding-left:40px;
+  padding-right:40px;
+  color:white;
+  text-decoration: none;
+}
+
+.floatLeft{
+  float:left;
+  padding-left:80px
+}
+.floatRight{
+  float:right;
+  text-align: right;
+}
+
+h1{
+color:#31C2D8;
+font-size:66px;
+margin:20px;
+text-align: right;
+
+}
+h2{
+color:white;
+font-size:56px;
+text-align:center;
+margin:20px
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+  float:left;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > img { /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin-bottom: 30px;
+  height:300px;
+  width:300px;
+}
+button{
+  border:none;
+  border-radius:25px;
+  height:50px;
+  width:100px;
+  background-color: white;
+  color:#001524;
+  font-weight: bold;
+
+}
+
+.bgImg{
+  background-image: url("component/workspace-1280538_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  background-size: cover;
+  height:100vh;
+  width:100vw;
+  margin-top:0;
+  box-shadow: inset 0 0 0 1000px rgba(35, 12, 15,.5);
+}
+
+.skillList{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+  background-color: #F433AB;
+  color:white;
+  list-style-type:none;
+  position:relative;
+
+}
+
+
+
+h3{
+  color:white;
+}
+
+h4{
+  color:white;
+  text-align: center;
+  margin:20px
+}
+a:hover{
+   color: #FFBA08;
+ }
+
+a{
+  text-decoration: none;
+  color:rebeccapurple;
+}
+
+.Wrapper{
+  margin:100px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.Wrapper img{
+  height:200px;
+  width:200px
+}
+
+
