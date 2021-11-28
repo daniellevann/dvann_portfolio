@@ -39,11 +39,12 @@ function about(){
             </div></RollIn2>
             <RollIn3>
             <h2>Relevant Coursework</h2>
-
+<div style={{textAlign:"center"}}>
             <img src={timeline1} alt={"timeline1"} height={"1730px"} width={"600px"} style={{marginBottom:"0px"}}/>
         <br/>
-            <img src={timeline2} alt={"timeline2"} height={"1730px"} width={"600px"} style={{marginTop:"-40px"}}/>
+            <img src={timeline2} alt={"timeline2"} height={"1730px"} width={"600px"} style={{marginTop:"-40px"}}/> </div>
         </RollIn3>
+
         </div>
     )
 }
