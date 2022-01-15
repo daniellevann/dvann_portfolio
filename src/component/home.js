@@ -24,8 +24,8 @@ function home(){
 
     return(
         <div >
-           <RollIn><h1 style={{color:"#31C2D8", position:"relative"}} > Hello! I'm Danielle Vann. It is nice to meet you.</h1></RollIn>
-       <RollIn2><h1 style={{color:"#F433AB", position:"relative"}}> I'm a Software Development student<br/> from Indianapolis, Indiana.</h1></RollIn2>
+           <RollIn><h1 style={{color:"#E61F93", position:"relative"}} > Hello! I'm Danielle Vann. It is nice to meet you.</h1></RollIn>
+       <RollIn2><h1 style={{color:"#1E502D", position:"relative"}}> I'm a Software Development student<br/> from Indianapolis, Indiana.</h1></RollIn2>
                <Bounce> <Link to={"/about"}><button> Learn More Here!</button></Link></Bounce>
 
             </div>
